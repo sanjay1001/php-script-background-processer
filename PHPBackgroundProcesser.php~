@@ -2,7 +2,7 @@
 /*
     Title: PHP Script Background Processer
     Version: 1.0
-    Auther: Sanjay Kumar Singh
+    Auther: Sanjay Kumar Panda
     Description: Here we can run a PHP file (script) in background, This process is hidden to the end user. IT improves your Website efficiency.  
 */
 
@@ -32,7 +32,7 @@ class BackgroundProcess{
         return true;
     }
     
-    public function setProcessId($pid{
+    public function setProcessId($pid){
         $this->pid = $pid;
         return true;
     }
